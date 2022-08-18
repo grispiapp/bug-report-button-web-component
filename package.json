@@ -1,0 +1,16 @@
+{
+  "name": "bug-report-button",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:grispiapp/screenshot-button-web-component.git",
+  "author": "destan@destan.dev",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "./build.js",
+    "dev": "./node_modules/.bin/esbuild bug-report-button.js --minify --outfile=dist/bug-report-button.js --watch --sourcemap"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.5"
+  }
+}
